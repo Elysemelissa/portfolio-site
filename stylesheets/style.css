@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: 100%;
+  background: #f8f8f8;
+  font-family: "Sora", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: rgb(226, 226, 226);
+  color: rgb(26, 26, 26);
+  box-shadow: 0 1px 8px rgb(197, 197, 197);
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+}
+
+.navbar h2 {
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.navbar i {
+  padding-right: 9px;
+}
