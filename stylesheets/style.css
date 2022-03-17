@@ -12,10 +12,12 @@ html {
   font-family: "Sora", sans-serif;
 }
 
+/* navbar */
+
 .navbar {
   display: flex;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0 20px;
   background-color: rgb(226, 226, 226);
   color: rgb(26, 26, 26);
   box-shadow: 0 1px 8px rgb(197, 197, 197);
@@ -41,4 +43,25 @@ html {
 
 .navbar i {
   padding-right: 9px;
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  background: rgb(196, 196, 196);
+  color: white;
+}
+
+.footer i {
+  color: rgb(54, 54, 54);
+  padding: 20px;
+}
+
+.footer-container {
+  padding: 90px 0;
+}
+
+.copyright {
+  padding-top: 40px;
 }
