@@ -16,13 +16,16 @@ html {
 
 .navbar {
   display: flex;
-  align-items: center;
-  padding: 0 20px;
   background: #e8ecf1;
   color: rgb(26, 26, 26);
   box-shadow: 0 1px 8px rgb(197, 197, 197);
-  width: 100%;
+}
+
+.nav-container {
+  display: flex;
   justify-content: space-between;
+  background: #e8ecf1;
+  flex-basis: 100%;
 }
 
 .navbar li {
@@ -37,8 +40,10 @@ html {
 }
 
 .navbar h2 {
+  padding: 0px 0px 0px 20px;
   font-size: 19px;
   font-weight: 900;
+  display: inline-block;
 }
 
 .navbar i {
@@ -84,7 +89,7 @@ html {
 
 .footer {
   text-align: center;
-  background: #bccfd4;
+  background: #bcccd4;
   color: white;
 }
 
