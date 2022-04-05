@@ -16,7 +16,7 @@ html {
 
 .navbar {
   display: flex;
-  background: #e8ecf1;
+  background: #eaecee;
   color: rgb(26, 26, 26);
   box-shadow: 0 1px 8px rgb(197, 197, 197);
 }
@@ -70,7 +70,7 @@ html {
   display: flex;
   gap: 20px;
   padding: 6px 0;
-  font-weight: 200;
+  font-weight: 100;
   justify-content: center;
 }
 
@@ -99,7 +99,7 @@ html {
 }
 
 .footer-container {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .copyright {
@@ -117,7 +117,22 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 30px;
+    font-size: 15px;
+  }
+
+  .introduction-title {
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+
+  .skills-container {
+    font-size: 14px;
+    padding-top: 8px;
+  }
+
+  .skills-list {
+    padding-bottom: 20px;
   }
 
   .about-info {
@@ -125,11 +140,7 @@ html {
   }
 
   .about-photo {
-    width: 22%;
-  }
-
-  .skills-container {
-    padding-top: 20px;
+    width: 33%;
   }
 
   .skills-list {
