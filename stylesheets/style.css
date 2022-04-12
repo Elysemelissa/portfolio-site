@@ -85,6 +85,57 @@ html {
   padding: 10px 80px 0px 80px;
 }
 
+/* project cards */
+
+#projects {
+  background: #f0f0f0;
+  color: rgb(27, 27, 27);
+  padding: 35px 35px;
+  text-align: center;
+}
+
+.project-card {
+  overflow: hidden;
+  background: rgb(247, 247, 247);
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+
+.project-card > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-card h2 {
+  font-size: 20px;
+}
+
+.project-card p,
+.blog-card p {
+  opacity: 0.7;
+  margin: 0;
+  font-weight: 300;
+}
+
+.project-card p {
+  padding: 0px 10px;
+}
+
+.blog-card p {
+  font-size: 16px;
+}
+
+.project-card .project-card-infos {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
 /* footer */
 
 .footer {
@@ -149,5 +200,28 @@ html {
 
   .profile-photo {
     padding: 0;
+  }
+
+  .project-card {
+    transition: transform 0.2s ease;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .project-card:hover {
+    transform: scale(1.01);
+  }
+
+  .project-card p {
+    padding: 0px;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 40px;
+    row-gap: 40px;
   }
 }
