@@ -4,7 +4,7 @@ var app = document.getElementById("app");
 
 var typewriter = new Typewriter(app, {
   loop: false,
-  delay: 90,
+  delay: 80,
 });
 
 typewriter.typeString("Hallo, ik ben Elyse.").start();
