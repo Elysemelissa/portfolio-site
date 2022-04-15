@@ -12,6 +12,16 @@ html {
   font-family: "Sora", sans-serif;
 }
 
+h2 {
+  font-weight: 250;
+  padding-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 /* navbar */
 
 .navbar {
@@ -53,27 +63,13 @@ html {
   font-weight: 250;
 }
 
-#about-me h2,
-#projects h2,
-#blogposts h2 {
-  font-weight: 250;
-  padding-bottom: 20px;
-}
-
 .skills-list {
   list-style: none;
   display: flex;
   gap: 20px;
-  padding: 6px 0;
-  font-weight: 100;
+  padding: 3px 0;
+  font-weight: 220;
   justify-content: center;
-}
-
-.profile-photo,
-.project-picture,
-.blogpost-img {
-  width: 100%;
-  height: auto;
 }
 
 .profile-photo {
@@ -83,7 +79,6 @@ html {
 /* typewriter */
 
 #app {
-  padding: 50px;
   font-size: 70px;
   line-height: 78px;
   font-weight: 400;
@@ -106,8 +101,8 @@ html {
   }
 
   .introduction-title {
-    font-size: 16px;
-    padding-bottom: 8px;
+    font-size: 20px;
+    padding-bottom: 10px;
   }
 
   .skills-container {
@@ -116,7 +111,7 @@ html {
   }
 
   .skills-list {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 
   .about-info {
@@ -133,5 +128,14 @@ html {
 
   .profile-photo {
     padding: 0;
+  }
+
+  /* typewriter */
+
+  #app {
+    height: 80px;
+    font-size: 55px;
+    line-height: 78px;
+    font-weight: 400;
   }
 }
