@@ -83,6 +83,7 @@ html {
 /* typewriter */
 
 #app {
+  padding: 50px;
   font-size: 70px;
   line-height: 78px;
   font-weight: 400;
