@@ -55,20 +55,37 @@ img {
   padding-right: 10px;
 }
 
-/* about */
+/* about - typewriter */
+
+#app {
+  height: 68px;
+  font-size: 35px;
+  line-height: 70px;
+  font-weight: 400;
+}
+
+/* about section */
 
 #about-me {
   color: rgb(61, 61, 61);
   text-align: center;
   font-weight: 250;
+  padding: 70px 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.introduction-title {
+  font-size: 17px;
+  padding-bottom: 10px;
 }
 
 .skills-list {
   list-style: none;
   display: flex;
   gap: 20px;
-  padding: 3px 0;
   font-weight: 220;
+  padding: 6px 0;
   justify-content: center;
 }
 
@@ -76,19 +93,22 @@ img {
   padding: 10px 80px 0px 80px;
 }
 
-/* typewriter */
-
-#app {
-  font-size: 70px;
-  line-height: 78px;
-  font-weight: 400;
-}
-
 @media only screen and (min-width: 1440px) {
-  /* about-section */
+  /* about - typewriter */
+
+  #app {
+    height: 80px;
+    font-size: 55px;
+    line-height: 78px;
+    font-weight: 400;
+  }
+
+  /* about section */
+
   #about-me {
     padding-top: 100px;
     text-align: start;
+    max-width: 100%;
   }
 
   .about-container,
@@ -111,7 +131,7 @@ img {
   }
 
   .skills-list {
-    padding-bottom: 15px;
+    padding: 0px 0px 30px 0px;
   }
 
   .about-info {
@@ -128,14 +148,5 @@ img {
 
   .profile-photo {
     padding: 0;
-  }
-
-  /* typewriter */
-
-  #app {
-    height: 80px;
-    font-size: 55px;
-    line-height: 78px;
-    font-weight: 400;
   }
 }
