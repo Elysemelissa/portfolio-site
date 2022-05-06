@@ -115,14 +115,19 @@ img {
 
 .project-card h2 {
   font-size: 20px;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
 }
 
-.project-card p {
+.project-description {
   opacity: 0.7;
   margin: 0;
   font-weight: 300;
   padding: 0px 20px;
+}
+
+.project-role {
+  font-weight: 230;
+  padding: 0px 20px 0px 20px;
 }
 
 /* footer */
